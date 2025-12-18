@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: radial-gradient(circle at top, #2b0000, #000);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 25px;
+}
+
+.title {
+    color: red;
+    font-size: 48px;
+    text-shadow: 0 0 20px red;
+    margin-bottom: 10px;
+}
+
+.logo {
+    width: 220px;
+    margin: 15px auto;
+    display: block;
+}
+
+.welcome {
+    background: rgba(255,255,255,0.08);
+    padding: 15px;
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 320px;
+    font-size: 18px;
+}
+
+.welcome span {
+    color: red;
+    font-weight: bold;
+}
+
+.card {
+    background: linear-gradient(145deg, #111, #1c1c1c);
+    border-radius: 18px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 320px;
+    box-shadow: 0 0 25px rgba(255,0,0,0.15);
+}
+
+.card h2 {
+    margin: 10px 0;
+}
+
+.card p {
+    color: #ccc;
+}
+
+.icon {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.ios .icon {
+    color: gold;
+}
+
+.android .icon {
+    color: #00ff6a;
+}
