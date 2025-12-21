@@ -66,3 +66,43 @@ body {
 .android .icon {
     color: #00ff6a;
 }
+.menu-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    font-size: 28px;
+    color: white;
+    background: rgba(255,255,255,0.1);
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 85%;
+    height: 100%;
+    background: #0b0b0b;
+    padding: 80px 20px;
+    transition: 0.3s;
+    z-index: 999;
+}
+
+.side-menu.open {
+    right: 0;
+}
+
+.side-menu a {
+    display: block;
+    background: linear-gradient(145deg, #111, #1c1c1c);
+    margin-bottom: 15px;
+    padding: 18px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    box-shadow: 0 0 15px rgba(255,255,255,0.05);
+}
