@@ -34,3 +34,77 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>RX7</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b0b0b;
+      color: white;
+    }
+
+    .menu-btn {
+      font-size: 30px;
+      padding: 15px;
+      cursor: pointer;
+    }
+
+    .side-menu {
+      position: fixed;
+      top: 0;
+      right: -260px;
+      width: 250px;
+      height: 100%;
+      background: #111;
+      padding: 20px;
+      transition: 0.3s;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .side-menu a {
+      text-decoration: none;
+      color: white;
+      background: #1a1a1a;
+      padding: 15px;
+      border-radius: 15px;
+      text-align: center;
+    }
+
+    .side-menu.show {
+      right: 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- زر القائمة -->
+  <div class="menu-btn" onclick="toggleMenu()">☰</div>
+
+  <!-- القائمة الجانبية -->
+  <div id="menu" class="side-menu">
+    <a href="#">الصفحة الرئيسية</a>
+    <a href="#">هاك روبلوكس ايفون</a>
+    <a href="#">هاك روبلوكس اندرويد</a>
+    <a href="#">هاك روبلوكس بي سي</a>
+    <a href="#">فورت نايت</a>
+    <a href="#">ايسباين</a>
+    <a href="#">DNS</a>
+    <a href="#">شهادات</a>
+    <a href="#">شراء شهادات</a>
+  </div>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById("menu").classList.toggle("show");
+    }
+  </script>
+
+</body>
+</html>
