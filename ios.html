@@ -88,3 +88,152 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>RX7 - هاك روبلوكس ايفون</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b0b0b;
+      color: white;
+    }
+
+    .menu-btn {
+      font-size: 35px;
+      padding: 15px;
+      cursor: pointer;
+      color: white;
+      position: fixed;
+      top: 15px;
+      right: 15px;
+      z-index: 1000;
+    }
+
+    .side-menu {
+      position: fixed;
+      top: 0;
+      right: -260px;
+      width: 250px;
+      height: 100%;
+      background: #111;
+      padding: 20px;
+      transition: 0.3s;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    .side-menu a {
+      text-decoration: none;
+      color: white;
+      background: #1a1a1a;
+      padding: 15px;
+      border-radius: 15px;
+      text-align: center;
+    }
+
+    .side-menu.show {
+      right: 0;
+    }
+
+    .content {
+      padding: 100px 15px;
+      text-align: center;
+    }
+
+    .box {
+      background: #2a2a2a;
+      border-radius: 20px;
+      padding: 15px;
+      margin: 15px 0;
+    }
+
+    .box img {
+      width: 100%;
+      border-radius: 15px;
+    }
+
+    .title-box {
+      background: #3a3a3a;
+      border-radius: 15px;
+      padding: 15px;
+      margin: 20px 0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      background: #444;
+      margin: 10px 0;
+      padding: 12px;
+      border-radius: 12px;
+    }
+
+    .btn {
+      display: block;
+      background: black;
+      color: white;
+      padding: 18px;
+      margin: 15px 0;
+      border-radius: 15px;
+      text-decoration: none;
+      font-size: 18px;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="menu-btn" onclick="toggleMenu()">&#9776;</div>
+
+<div id="menu" class="side-menu">
+  <a href="index.html">الصفحة الرئيسية</a>
+  <a href="ios.html">هاك روبلوكس ايفون</a>
+  <a href="android.html">هاك روبلوكس اندرويد</a>
+  <a href="pc.html">هاك روبلوكس بي سي</a>
+</div>
+
+<div class="content">
+
+  <!-- صورة -->
+  <div class="box">
+    <img src="images/ios.png" alt="Roblox iOS">
+  </div>
+
+  <!-- عنوان -->
+  <div class="title-box">
+    <h2>هاك روبلوكس ايفون</h2>
+    <p>أفضل أداة مخصصة لأجهزة iOS</p>
+  </div>
+
+  <!-- مميزات -->
+  <div class="title-box">
+    <h3 style="color:#f0c000;">مميزات الهاك</h3>
+    <ul>
+      <li>✔️ واجهة سهلة الاستخدام</li>
+      <li>✔️ دعم أحدث إصدار</li>
+      <li>✔️ أداء مستقر</li>
+    </ul>
+  </div>
+
+  <!-- أزرار -->
+  <a href="#" class="btn">Install iOS Version ⬇️</a>
+  <a href="#" class="btn">Download Executor ⬇️</a>
+
+</div>
+
+<script>
+  function toggleMenu() {
+    document.getElementById("menu").classList.toggle("show");
+  }
+</script>
+
+</body>
+</html>
